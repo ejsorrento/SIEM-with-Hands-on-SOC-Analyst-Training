@@ -1,6 +1,5 @@
 # SIEM-with-Hands-on-SOC-Analyst-Training![siem-image-wp](https://github.com/user-attachments/assets/ad692c7d-fce2-4e56-8fbb-2e54d3268fbd)
 
-
 The overall goal of this lab was to gain experience pushing Nmap scan data up to a SIEM through an agent attached to a virtual machine. The SIEM is built through Elastic and the virtual machine is built with a Kali Linux ISO file. Then finally to attach alerts to each Nmap scan that will send an alert to email.
 
 **Overview of tasks:**
@@ -56,3 +55,8 @@ Brief overview of an agent: An agent is a software program that is installed on 
 
 2. Search for “Elastic Defend” and click on it to open the integration page.
 
+![2_StUpb5eGGZ5SzIbURBqCLA](https://github.com/user-attachments/assets/13978a48-88c0-40ba-8cb4-54c96e970abc)
+
+3. Click on “Install Elastic Defend” and follow the instructions provided on the integration page to install the agent on your Kali VM.
+
+![3_5sbyyzQSDj0y5oOQEgTUSQ](https://github.com/user-attachments/assets/1645d209-592b-465c-ac88-2359895267f5)
