@@ -60,3 +60,5 @@ Brief overview of an agent: An agent is a software program that is installed on 
 3. Click on “Install Elastic Defend” and follow the instructions provided on the integration page to install the agent on your Kali VM.
 
 ![3_5sbyyzQSDj0y5oOQEgTUSQ](https://github.com/user-attachments/assets/1645d209-592b-465c-ac88-2359895267f5)
+
+![4_AMG0J_a1m1R7LGCjrFtIZw](https://github.com/user-attachments/assets/e7ab77e6-551f-4caa-a73b-a764b76379f6)
