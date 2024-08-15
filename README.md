@@ -67,3 +67,11 @@ _Note: Select and copy above command onto clipboard._
 
 4. Paste command into the Kali terminal.
 <img width="1280" alt="Screen Shot 2024-05-02 at 1 14 27 PM" src="https://github.com/user-attachments/assets/6ca7f6e2-dbef-4ee9-8be9-e6087fd0b3fd">
+
+5. Agent installation can take a few minutes, upon completion, you’ll see a message that says “Elastic Agent has been successfully installed.” It will automatically start collecting and forwarding logs to your Elastic SIEM instance, although it might take a few minutes for the logs to appear in the SIEM.
+
+![5_UEF1sm6RNxXbMrCw_3eNkQ](https://github.com/user-attachments/assets/9e99cb4e-f56f-47ba-b7a9-3a6374987f46)
+
+Verify that the agent has been installed correctly by running this command: sudo systemctl status elastic-agent.service
+
+Screen Shot 2024-05-02 at 1.14.46 PM
