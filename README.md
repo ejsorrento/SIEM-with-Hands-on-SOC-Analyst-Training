@@ -74,4 +74,5 @@ _Note: Select and copy above command onto clipboard._
 
 Verify that the agent has been installed correctly by running this command: sudo systemctl status elastic-agent.service
 
-Screen Shot 2024-05-02 at 1.14.46 PM
+<img width="603" alt="Screen Shot 2024-05-02 at 1 14 46 PM" src="https://github.com/user-attachments/assets/8ae0248b-b4db-4f10-bd95-261bf6c8eaa5">
+
