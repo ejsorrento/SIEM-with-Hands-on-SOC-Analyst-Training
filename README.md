@@ -76,3 +76,5 @@ Verify that the agent has been installed correctly by running this command: sudo
 
 <img width="603" alt="Screen Shot 2024-05-02 at 1 14 46 PM" src="https://github.com/user-attachments/assets/8ae0248b-b4db-4f10-bd95-261bf6c8eaa5">
 
+_To troubleshoot an error with installing the agent, test that Kali is connected to the internet by pinging google.com_
+
