@@ -78,3 +78,22 @@ Verify that the agent has been installed correctly by running this command: sudo
 
 _To troubleshoot an error with installing the agent, test that Kali is connected to the internet by pinging google.com_
 
+**Step 4: Generating Security Events on Kali Linux VM**
+
+We'll now verify that the agent is working correctly by generating some security-related events on the Kali VM. In order to do this, we will use Nmap (Network Mapper). Nmap is a free, open-source utility used for network exploration, management, and security auditing. It is designed to discover hosts and services on a computer network, thus creating a “map” of the network. Nmap can be used to scan hosts for open ports, determine the operating system and software running on the target system, and gather other information about the network.
+
+**Follow these steps in order to run Nmap:**
+
+1. Nmap comes pre-installed into Kali Linux, therefore, it is unneccessary to install. If you are not utilizing Kali, open a new Terminal and run this command to install it: sudo apt-get install nmap.
+
+2. Run a scan on Kali machine by running the command: sudo nmap <vm-ip>. You can also run a scan of your host machine if you place your Kali VM on a “bridged” network.
+
+![6_g9YjaeWzuZDCFTMQ_wzQhQ](https://github.com/user-attachments/assets/35af6009-7bf8-4769-ab3f-3131eed49409)
+
+_Nmap scan of my host machine._
+
+3. This scan generates several security events, such as the detection of open ports and the identification of services running on those ports. Run a few more Nmap scans (“nmap -sS <ip address>”, “nmap -sT <ip address>”, “nmap -p- <ip address>”etc..”
+
+<img width="527" alt="Screen Shot 2024-05-02 at 1 15 26 PM" src="https://github.com/user-attachments/assets/1b6e2e21-d098-450d-a165-4dca11b50a8b">
+
+![7_6zTYVC4FAYskyfVgJO6bTQ](https://github.com/user-attachments/assets/06e25cea-d089-4c8e-9725-817660477d8f)
