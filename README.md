@@ -65,5 +65,4 @@ Brief overview of an agent: An agent is a software program that is installed on 
 _Note: Select and copy above command onto clipboard._
 
 4. Paste command into the Kali terminal.
-
 <img width="1280" alt="Screen Shot 2024-05-02 at 1 14 27 PM" src="https://github.com/user-attachments/assets/6ca7f6e2-dbef-4ee9-8be9-e6087fd0b3fd">
