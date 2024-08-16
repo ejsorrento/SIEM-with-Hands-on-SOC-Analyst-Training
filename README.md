@@ -97,3 +97,45 @@ _Nmap scan of my host machine._
 <img width="527" alt="Screen Shot 2024-05-02 at 1 15 26 PM" src="https://github.com/user-attachments/assets/1b6e2e21-d098-450d-a165-4dca11b50a8b">
 
 ![7_6zTYVC4FAYskyfVgJO6bTQ](https://github.com/user-attachments/assets/06e25cea-d089-4c8e-9725-817660477d8f)
+
+**Step 5: Querying for Security Events in Elastic SIEM**
+
+Now with the forwarded data to the SIEM from the Kali VM, we can begin querying and analyzing the SIEM logs.
+
+**Follow these steps:**
+
+1. In the Elastic Deployment, click the hamburger menu in the top left, then click "Logs" under "Observability"to view the logs from the Kali VM.
+
+![8_AHJpiV6UBsbz9BNnQptTkA](https://github.com/user-attachments/assets/38e60984-216b-4ed4-bc52-3e8f69754da2)
+
+2. In the search bar, enter a search query to filter the logs. For example, to search for all logs related to Nmap scans, enter the query: event.action:
+“nmap_scan” or process.args: “sudo”. Execute the search query. Note that it could take a bit of time for the queries populate within the SIEM.
+
+3. The query results will be displayed in the table. Click the three dots next to each event to see more details.
+
+![9_uCQQRrAFde7b-qg27415hA](https://github.com/user-attachments/assets/34d851d5-7721-45e4-95f1-2224fce13610)
+
+![10_Hyf_7WS1lV6JSX02w69iEg](https://github.com/user-attachments/assets/bfe7ec23-1962-4310-a636-13b1f0ae0f1e)
+
+By generating and analyzing different types of security events in Elastic SIEM like the one above, or generating authentication failures by typing in the wrong password for a user or attempting SSH logins an incorrect password, you can gain a better understanding of how security incidents are detected, investigated, and responded to in real-world environments.
+
+**Step 6: Create a Dashboard to Visualize the Events**
+
+Visualizations and Dashboards in the SIEM app can be used analyze the logs and identify patterns or anomalies in the data. For example, you can create a simple dashboard that shows a count of security events over time.
+
+This is done by:
+
+1. Navigating to the Elastic web portal - https://cloud.elastic.co/.
+2. Click on the hamburger menu, then "Analytics", the click on "Dashboards".
+
+![11_xnDZLOaAgmHSzT8Fr5vgSw](https://github.com/user-attachments/assets/9cf36b4d-041b-4384-a68a-9cb9b222331d)
+
+3. Click the “Create dashboard” button on the top right to create a new dashboard.
+
+4. Click the "Create Visualization" button to add a new visualization to the dashboard
+
+5. Select the visualization type of either "Area" or "Line", based on your preference. This will create a chart that shows the count of events over time.
+
+![12_SHUc8PSWdr_19z6n73QF0A](https://github.com/user-attachments/assets/f54a0a9d-019f-408c-8917-d8795f0b823a)
+
+6. 
