@@ -153,3 +153,21 @@ _Make sure to clock "close" to save changes_
 
 **Step 7: Create an Alert**
 
+SIEM alerts are a critical component in detecting security incidents and responding to them in a timely manner Alerts can be configured based on predefined rules and customer quieries, and can be configured to trigger specific actions when certain conditions are met. We will walk through the steps in creating alerts in the Elastic SIEM instance in order to detect Nmap scans. You will be able to create an alert that monitors logs for Nmap scan events and then generate a notification, in this case we will choose an email.
+
+1. Click on the hamburger menu in the top left, then "Security, and then "Alerts".
+
+2. Next, click "Manage rules" in the top right
+
+![17_fo_0LV1O9EdRkKTdPLIotw](https://github.com/user-attachments/assets/b5abef59-0462-49cd-b093-5739c15c2dd9)
+
+3. Click the "Create a new rule" button in the top right.
+
+4. Navigate to the "Define rule" sections and select "Custom query" from the dropdown menu.
+
+5. Set the conditions for the rule under "Custom query". The following query can be used to detect Nmap scan events.
+
+![18_k_pLOknQWj9n91d3ep0IRA](https://github.com/user-attachments/assets/e970ad69-93be-408a-8570-b11f47c837d6)
+_This query will match all events with the action “nmap_scan.” Then click “Continue.”_
+
+6. 
