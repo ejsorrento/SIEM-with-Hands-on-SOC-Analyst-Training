@@ -138,4 +138,18 @@ This is done by:
 
 ![12_SHUc8PSWdr_19z6n73QF0A](https://github.com/user-attachments/assets/f54a0a9d-019f-408c-8917-d8795f0b823a)
 
-6. 
+6. On the right of the visualization editor, locate a "Metrics" dropdown menu and select "Timestamp" for the horizontal field and "Count" for the vertical field. Each instance or event will now be counted.
+
+![13_ZBJ3X5M94mo8rQoTZqu-6w](https://github.com/user-attachments/assets/a98e9b63-b473-4261-8114-9c31999aa3f5)
+
+![14_Esjo2Aljf2vbhsgS3mNXRw](https://github.com/user-attachments/assets/d89b36a2-e1f9-4928-8041-903190499f3f)
+
+![15_odXMlW_xItFgVUU2XEDTGQ](https://github.com/user-attachments/assets/1fa0eeff-e5fe-4ed6-8214-5c3718e39b2f)
+_Make sure to clock "close" to save changes_
+
+7. Click the "Save and return" button in the top right to complete the rest of the settings
+
+![16_N3rTTklO-Nlu4mksJbMX3w](https://github.com/user-attachments/assets/ef205a98-aeba-48a5-b2da-3518c59eab94)
+
+**Step 7: Create an Alert**
+
