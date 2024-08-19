@@ -53,7 +53,7 @@ Brief overview of an agent: An agent is a software program that is installed on 
 ![1_OFaFyshfXVJkheFmGEsuwg](https://github.com/user-attachments/assets/9a052f5e-0f94-4797-9d8f-2e8936d434a1)
 
 
-2. Search for “Elastic Defend” and click on it to open the integration page.
+2. Locate for “Elastic Defend” and click on it to open the integration page.
 
 ![2_StUpb5eGGZ5SzIbURBqCLA](https://github.com/user-attachments/assets/13978a48-88c0-40ba-8cb4-54c96e970abc)
 
@@ -173,7 +173,7 @@ _This query will match all events with the action “nmap_scan.” Then click �
 
 6. Give the rule a name and a description under the "About Rule section. Choose something for both that gives another person a clear understanding of the purpose of this rule, for example, "Nmap Scan Detection", "This rule exists to generate a notification for each time an Nmap scan is detected.".
 
-7. Remeber to set the severity level for the alert in order to aid in the prioritzation of alerts based on their importance. Disregard all other default settings for the time being under "Schedule rule" and click "Continue".
+7. Remember to set the severity level for the alert in order to aid in the prioritzation of alerts based on their importance. Disregard all other default settings for the time being under "Schedule rule" and click "Continue".
 
 ![19_F5tRVabgbkE0IWSyWyRaIQ](https://github.com/user-attachments/assets/9b40c704-0d7d-49f9-9ea0-c167ec695220)
 
