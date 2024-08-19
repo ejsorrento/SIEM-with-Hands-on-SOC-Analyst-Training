@@ -168,6 +168,13 @@ SIEM alerts are a critical component in detecting security incidents and respond
 5. Set the conditions for the rule under "Custom query". The following query can be used to detect Nmap scan events.
 
 ![18_k_pLOknQWj9n91d3ep0IRA](https://github.com/user-attachments/assets/e970ad69-93be-408a-8570-b11f47c837d6)
+
 _This query will match all events with the action “nmap_scan.” Then click “Continue.”_
 
-6. 
+6. Give the rule a name and a description under the "About Rule section. Choose something for both that gives another person a clear understanding of the purpose of this rule, for example, "Nmap Scan Detection", "This rule exists to generate a notification for each time an Nmap scan is detected.".
+
+7. Remeber to set the severity level for the alert in order to aid in the prioritzation of alerts based on their importance. Disregard all other default settings for the time being under "Schedule rule" and click "Continue".
+
+![19_F5tRVabgbkE0IWSyWyRaIQ](https://github.com/user-attachments/assets/9b40c704-0d7d-49f9-9ea0-c167ec695220)
+
+8. 
