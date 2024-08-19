@@ -145,7 +145,7 @@ This is done by:
 ![14_Esjo2Aljf2vbhsgS3mNXRw](https://github.com/user-attachments/assets/d89b36a2-e1f9-4928-8041-903190499f3f)
 
 ![15_odXMlW_xItFgVUU2XEDTGQ](https://github.com/user-attachments/assets/1fa0eeff-e5fe-4ed6-8214-5c3718e39b2f)
-_Make sure to clock "close" to save changes_
+_Make sure to click "close" to save changes_
 
 7. Click the "Save and return" button in the top right to complete the rest of the settings
 
