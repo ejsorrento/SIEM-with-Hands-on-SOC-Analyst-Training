@@ -187,11 +187,13 @@ _This query will match all events with the action “nmap_scan.” Then click �
 Now that this alert has been created, it will monitor your logs for Nmap scan events. Once an Nmap scan event is identified, the alert will be triggered and an email notification will be sent. Manage alerts under the "Alerts" section under "Security".
 
 **Epilogue**
+
 We've successfuly set up a home lab utilizing Elastic SIEM and a Kali Linux VM. We then transmitted data from the Kali VM to the SIEM using the Elastic Beats agent, generating security events from the Kali VM using Nmap, then queried and analyzed the logs in the SIEM using the Elastic web interface. Then we also created a dashboard to visualize security events and created an alert to detect security events.
 
 This lab provides a beneficial place for learning and practicing the necessary skills for effective security monitoring and incident response using Elastic SIEM. By following these steps, you gain hands-on experience with a SIEM and improve your security monitoring skills in order to become a successful security analyst.
 
 **Moving Forward**
+
 • Attempt to generate differetn types of security events on your new Kali Linux VM and the querying into the Elastic SIEM.
 
 • Test the alert that you created by generating Nmap scans on the Kali VM.
