@@ -8,6 +8,8 @@
 
 • **Visualization and Alerting in SIEM:** Developed a custom dashboard in Elastic SIEM to visualize security events, demonstrating skills in data interpretation and pattern recognition. Successfully created and tested alert rules for detecting specific security events, showing competency in proactive incident response.
 
+**Introduction**
+
 The overall goal of this lab was to gain experience pushing Nmap scan data up to a SIEM through an agent attached to a virtual machine. The SIEM is built through Elastic and the virtual machine is built with a Kali Linux ISO file. Then finally to attach alerts to each Nmap scan that will send an alert to email.
 
 **Overview of tasks:**
