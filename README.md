@@ -1,5 +1,13 @@
 # SIEM-with-Hands-on-SOC-Analyst-Training![siem-image-wp](https://github.com/user-attachments/assets/ad692c7d-fce2-4e56-8fbb-2e54d3268fbd)
 
+**Platforms and Technology Used:** Elastic, Kali Linux, VirtualBox, and Nmap
+
+• **Elastic Stack SIEM Configuration and Management:** Successfully set up and configured Elastic Stack SIEM in a home-lab environment. Demonstrated proficiency in deploying a Kali Linux virtual machine, configuring Elastic Agents for log collection, and forwarding data to the SIEM for effective security event monitoring.
+
+• **Security Event Simulation and Analysis:** Acquired hands-on experience in generating and analyzing security events using Nmap on Kali Linux. Proficient in querying Elastic SIEM to identify and investigate security incidents, enhancing skills in network security monitoring and threat detection.
+
+• **Visualization and Alerting in SIEM:** Developed a custom dashboard in Elastic SIEM to visualize security events, demonstrating skills in data interpretation and pattern recognition. Successfully created and tested alert rules for detecting specific security events, showing competency in proactive incident response.
+
 The overall goal of this lab was to gain experience pushing Nmap scan data up to a SIEM through an agent attached to a virtual machine. The SIEM is built through Elastic and the virtual machine is built with a Kali Linux ISO file. Then finally to attach alerts to each Nmap scan that will send an alert to email.
 
 **Overview of tasks:**
